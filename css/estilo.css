@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Rubik', 'Poppins', 'Roboto', 'Helvetica', sans-serif;
+  font-family: "Rubik", "Poppins", "Roboto", "Helvetica", sans-serif;
   background: #f9f2fc;
 }
 
@@ -230,7 +230,7 @@ Novos codigos */
 }
 
 #skills {
-  height: 294px;
+  height: 30rem;
   background: white;
 }
 
@@ -243,14 +243,12 @@ Novos codigos */
   margin-top: 56px;
   align-items: center;
   display: flex;
-  /* margin-left: 605px; */
   flex-flow: column;
   flex-flow: center;
-  /* background: #f9f2fc; */
 }
 
 .bordascontatos {
-  content: '';
+  content: "";
   display: block;
   margin: 1px auto;
   width: 5px;
@@ -258,7 +256,6 @@ Novos codigos */
   position: relative;
   top: 29px;
   left: -90px;
-  /* z-index: -1; */
   transform: rotate(-5deg);
   background: #8257e6;
 }
@@ -276,20 +273,19 @@ Novos codigos */
 
   text-transform: uppercase !important;
   margin-bottom: 26px !important;
-  /* margin-left: 106px !important; */
   margin-left: 600px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 #contatos p {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 1.1rem;
   text-align: center;
   line-height: 1.3;
 }
 
 #contatos a button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: rgb(130 87 230);
   color: rgb(255, 255, 255);
   height: 45px;
@@ -299,7 +295,6 @@ Novos codigos */
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  /* opacity: 0; */
   padding: 0px 35px;
   margin: 40px auto 0px 0px;
   animation: 1s ease 0s 1 normal forwards running lbWRkT;
@@ -419,11 +414,11 @@ body {
   overflow-x: hidden;
 }
 
-[data-anime='left'] {
+[data-anime="left"] {
   transform: translate3d(-50px, 0, 0);
 }
 
-[data-anime='right'] {
+[data-anime="right"] {
   transform: translate3d(50px, 0, 0);
 }
 
@@ -496,7 +491,7 @@ div {
 }
 
 h1.bemvinwdo::after {
-  content: '|';
+  content: "|";
   margin-left: 5px;
   opacity: 1;
   animation: pisca 0.7s infinite;
@@ -559,7 +554,6 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   grid-gap: 20px;
-  /* overflow: hidden; */
 }
 
 .projetos .title {
@@ -587,7 +581,7 @@ video {
 }
 
 .projetos .title:before {
-  content: '';
+  content: "";
   display: block;
   width: 10px;
   height: 10px;
@@ -609,7 +603,7 @@ video {
   align-items: center;
   padding: 25px 0;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .on--left {
@@ -618,7 +612,7 @@ video {
 }
 
 .bordin h2::before {
-  content: '';
+  content: "";
   width: 5px;
   height: 30px;
   display: inline-flex;
@@ -633,20 +627,18 @@ video {
   border: 1px solid transparent;
 
   margin-bottom: 26px;
-  /* margin-right: 996px; */
 }
 
 .bordinsobre h2 {
   margin-top: -2px;
   text-transform: uppercase !important;
   margin-bottom: 26px !important;
-  /* margin-left: 106px !important; */
   margin-left: 600px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .bordasobre {
-  content: '';
+  content: "";
   display: block;
   margin: 1px auto;
   width: 5px;
@@ -654,13 +646,12 @@ video {
   position: relative;
   top: 29px;
   left: -90px;
-  /* z-index: -1; */
   transform: rotate(-5deg);
   background: #8257e6;
 }
 
 .bordaskills {
-  content: '';
+  content: "";
   display: block;
   margin: 1px auto;
   width: 5px;
@@ -668,7 +659,6 @@ video {
   position: relative;
   top: 29px;
   left: -90px;
-  /* z-index: -1; */
   transform: rotate(-5deg);
   background: #8257e6;
 }
@@ -684,9 +674,8 @@ video {
 
   text-transform: uppercase !important;
   margin-bottom: 26px !important;
-  /* margin-left: 106px !important; */
   margin-left: 600px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 #sobre p {
@@ -700,7 +689,7 @@ video {
 }
 
 .borda {
-  content: '';
+  content: "";
   display: block;
   margin: 1px auto;
   width: 5px;
@@ -719,6 +708,18 @@ video {
   overflow: hidden;
 }
 
+a:hover {
+  list-style: none;
+  text-decoration: none;
+}
+
+.acard {
+  color: #a6a6a5;
+}
+
+.acard:hover {
+  color: #8f8f8c;
+}
 .link-oficial {
   display: inline-block;
   color: #8257e6;
@@ -789,7 +790,6 @@ video {
 
   .on--left {
     display: flex;
-    /* padding: 37px 48px !important; */
     flex-flow: column;
     align-items: center;
   }
